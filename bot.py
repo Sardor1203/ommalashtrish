@@ -18,9 +18,8 @@ load_dotenv(BASE_DIR / ".env")
 
 DB_PATH = BASE_DIR / "bridge.db"
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-TARGET_GROUP_ID = int(os.getenv("TARGET_GROUP_ID", "0").strip() or 0)
-
+BOT_TOKEN = "8338690421:AAHKbahdicwp4PWtIMDy15P8-3yWNZ_IXK4"
+TARGET_GROUP_ID = "-1001641458222"
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN muhit o'zgaruvchisi topilmadi.")
 
